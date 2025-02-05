@@ -1,7 +1,7 @@
 
 # Mint Classics Company: A Model Car Database Analytics with MySQL Workbench and Tableau Public Dashboard
 
-Table of Content
+#### Table of Contents
 - <a href="#overview" id="toc-overview">Overview</a>
   - <a href="#data-structure" id="toc-data-structure">Data Structure</a>
   - <a href="#technical-details" id="toc-technical-details">Technical details</a>
