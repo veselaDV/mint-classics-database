@@ -1,6 +1,17 @@
 
 # Mint Classics Company: A Model Car Database Analytics with MySQL Workbench and Tableau Public Dashboard
 
+Table of Content
+- <a href="#overview" id="toc-overview">Overview</a>
+  - <a href="#data-structure" id="toc-data-structure">Data Structure</a>
+  - <a href="#technical-details" id="toc-technical-details">Technical details</a>
+- <a href="#executive-summary" id="toc-executive-summary">Executive summary</a>
+  - <a href="#overview-of-findings" id="toc-overview-of-findings">Overview of Findings</a>
+    - <a href="#sale-trends-key-insights" id="sale-trends-key-insights">Sale Trends Key Insights</a>
+    - <a href="#product-performance-key-insights" id="product-performance-key-insights">Product performance Key Insights</a>
+    - <a href="#shipping-time-and-status-key-insights" id="shipping-time-and-status-key-insights">Shipping Time and Status Key Insights</a>
+- <a href="#recommendations" id="toc-recommendations">Recommendations</a>
+- <a href="#caveats-and-assumptions" id="toc-caveats-and-assumptions">Caveats And Assumptions</a>
 
 ## **Overview**
 
@@ -12,7 +23,7 @@ This project aimed to analyze the warehouse performance, product performance, ti
 Insights and recommendations are provided on the following key areas:
 
  - **Warehouse Key Performance Indicators (KPIs) and performance.** Turn Over Ratio, Evaluation of inventory levels - stock to sales ratio, distribution of product lines through the warehouses and dead stock. Focusing on the revenue.
- - **Sales trends analysis.** How are inventory numbers related to sales figures? What are the products with the most sales, and which are the least sold items. Are there products that are not moving?
+ - **Sale trends analysis.** How are inventory numbers related to sales figures? What are the products with the most sales, and which are the least sold items. Are there products that are not moving?
  - **Shipping trends.** Analysing if the desired 24 hours shipping window is met.
 
 
@@ -47,8 +58,8 @@ The shipping efficiency exceeds the desired shipping window of 24 hours. The **f
 ![Screenshot of KPIs Tableau Public Dashboard](https://github.com/veselaDV/mint-classics-database/blob/main/screenshots_diagrams_dashboards/KPIs%20Dashboard.png)
 
 
-   #### **1. Sales Trends Key Insights**
-Analyzing Sales trends shows that there is a strong seasonality at the end of the year (**October and November**). The company can look for the opportunity for  inventory management ahead of these peak periods.
+   #### **1. Sale Trends Key Insights**
+Analyzing Sale trends shows that there is a strong seasonality at the end of the year (**October and November**). The company can look for the opportunity for inventory management ahead of these peak periods.
 
 ![Screenshot of KPIs Tableau Public Dashboard](https://github.com/veselaDV/mint-classics-database/blob/main/screenshots_diagrams_dashboards/Seasonality%20-%20Revenue%20by%20year%20for%20each%20warehouse%20.png)
 
