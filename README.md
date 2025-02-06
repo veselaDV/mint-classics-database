@@ -1,6 +1,8 @@
 
 # Mint Classics Company: A Model Car Database Analytics with MySQL Workbench and Tableau Public Dashboard
 
+Date: February 6, 2025 Author: Vesela Velikova
+
 #### Table of Contents
 - <a href="#overview" id="toc-overview">Overview</a>
   - <a href="#data-structure" id="toc-data-structure">Data Structure</a>
@@ -36,8 +38,8 @@ This is a screenshot of the Mint Classics relational database and a relational d
 
   ### **Technical details**
 
- - MySQL Workbench is used for database management and advanced data manipulation. All SQL queries can be found here.
- - Google spreadsheets are used for some data cleaning, transformation and advanced exploratory analysis EDA via pivot tables, conditional formatting and data validation. Screenshots of the tables can be found here.
+ - MySQL Workbench is used for database management and advanced data manipulation. All SQL queries can be found [here](https://github.com/veselaDV/mint-classics-database/blob/main/mintclassicsDB_project-final.sql)  
+ - Google spreadsheets are used for some data cleaning, transformation and advanced exploratory analysis EDA via pivot tables, conditional formatting and data validation. Screenshots of the tables, diagrams and query results can be found [here](https://github.com/veselaDV/mint-classics-database/tree/main/screenshots_diagrams_dashboards).
  - [Tableau Public Dashboard](https://public.tableau.com/views/MintClassicsCompany-InventoryandWarehouseAnalysisDashboard/Dashboard5?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) is used to support the findings and conclusions by visualizing the data.
 
 
@@ -109,12 +111,11 @@ Based on the uncovered insights, the following recommendations have been provide
 - Considering its revenue (**20% of total revenue**), quantity of stored products (**14% of all stock**) and the total number of sales of the carried product lines: **Trains (6% of all sales)**, **Ships (1% of all sales)** and **Trucks & Buses (10% of all sales)**, the most favorable choice for eliminating is the **South warehouse**. Its inventory can be redistributed between the two warehouses with lower taken capacity - **East (67%)** and **West (50%)**.
 - In the future, it is recommended that product lines be distributed equally between operating warehouses, with orders arriving at the closest to the shipping address warehouse. This way the company can ensure more efficient delivery times.
 - In order to reduce storage costs and increase working capital more effective Inventory management is needed. Considering promotions/discounts for the overstock inventory, and discontinuing products that **never made sales** (1985 Toyota Supra with **product code S18_3233**).
-- Optimize Inventory Levels. The low/insufficient stock to sales ratio of products (top 5 products with insufficient stock: product codes S24_2000, S12_1099, S32_4289, S32_1374, S72_3212) is increasing the chances of canceled orders and shipment delays due to low/insufficient stock. This optimization reduces the risk of stockouts and ensures that products are available when customers need them.
-- Sales trends show seasonality over the months of October and November. The company should consider taking relevant marketing and advertising actions to boost sales during the dead period (December to October).
+- Optimize Inventory Levels. The low/insufficient stock to sales ratio of products (**top 5** products with **insufficient stock**: product codes S24_2000, S12_1099, S32_4289, S32_1374, S72_3212) is increasing the chances of canceled orders and shipment delays due to low/insufficient stock. This optimization reduces the risk of stockouts and ensures that products are available when customers need them.
+- Sales trends show **seasonality** over the months of **October** and **November**. The company should consider taking relevant marketing and advertising actions to boost sales during the dead period (December to October).
 - Centralizing the warehouse data may provide the company with a blueprint to work around to ensure all departments are aligned. This results in improved data integrity, and valuable tracking and reporting. 
 
   ### **Caveats And Assumptions**
-
 
 During the analysis, certain limitations were encountered:
 - The dataset contains data from 2003, 2004 through may 2005. There are missing values for 2004. This prevents the analysis from being thorough. The lack of yearly trends lower the integrity of the driven insights for the measured KPIs.
@@ -122,4 +123,4 @@ During the analysis, certain limitations were encountered:
 - Assumptions were made regarding the location of the warehouses. Factors affecting shipping times and shipping cost were not accounted for.
 - Assumptions were made regarding sales trends based on available data.
 
-
+**Contrybution** Analyze Data in a Model Car Database with MySQL Workbench a [Coursera Project](https://www.coursera.org/projects/showcase-analyze-data-model-car-database-mysql-workbench) 
