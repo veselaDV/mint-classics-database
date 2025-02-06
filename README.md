@@ -38,8 +38,8 @@ This is a screenshot of the Mint Classics relational database and a relational d
 
   ### **Technical details**
 
- - MySQL Workbench is used for database management and advanced data manipulation. All SQL queries can be found [here](https://github.com/veselaDV/mint-classics-database/blob/main/mintclassicsDB_project-final.sql)  
- - Google spreadsheets are used for some data cleaning, transformation and advanced exploratory analysis EDA via pivot tables, conditional formatting and data validation. Screenshots of the tables, diagrams and query results can be found [here](https://github.com/veselaDV/mint-classics-database/tree/main/screenshots_diagrams_dashboards).
+ - MySQL Workbench is used for database management and advanced data manipulation. All SQL queries can be found [here](https://github.com/veselaDV/mint-classics-database/blob/main/mintclassicsDB_project-final.sql)
+ - Google spreadsheets are used for some data cleaning, transformation and advanced exploratory analysis EDA via pivot tables, conditional formatting and data validation. Screenshots of the tables and diagrams can be found [here](https://github.com/veselaDV/mint-classics-database/tree/main/screenshots_diagrams_dashboards).
  - [Tableau Public Dashboard](https://public.tableau.com/views/MintClassicsCompany-InventoryandWarehouseAnalysisDashboard/Dashboard5?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) is used to support the findings and conclusions by visualizing the data.
 
 
