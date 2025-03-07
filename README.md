@@ -123,4 +123,4 @@ During the analysis, certain limitations were encountered:
 - Assumptions were made regarding the location of the warehouses. Factors affecting shipping times and shipping cost were not accounted for.
 - Assumptions were made regarding sales trends based on available data.
 
-**Contrybution** Analyze Data in a Model Car Database with MySQL Workbench a [Coursera Project](https://www.coursera.org/projects/showcase-analyze-data-model-car-database-mysql-workbench) 
+**Contribution** Analyze Data in a Model Car Database with MySQL Workbench a [Coursera Project](https://www.coursera.org/projects/showcase-analyze-data-model-car-database-mysql-workbench) 
