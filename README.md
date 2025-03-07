@@ -20,13 +20,13 @@ Date: February 6, 2025 Author: Vesela Velikova
 Mint Classics Company is a retailer of classic model cars and other vehicles. They own four storage facilities and maintain a large product range.  
 The company is providing the Mint Classics relational database to uncover key insights. This will help the company make inventory-related business decisions that lead to the closure of a storage facility. The stakeholders are asking to take into account that their desire is to ship a product to a customer within 24 hours of the order being placed.
 
-This project aimed to analyze the warehouse performance, product performance, timely shipping and sales trends. 
+This project aimed to analyze the warehouse performance, product performance, timely shipping and sale trends. 
 
 Insights and recommendations are provided on the following key areas:
 
  - **Warehouse Key Performance Indicators (KPIs) and performance.** Turn Over Ratio, Evaluation of inventory levels - stock to sales ratio, distribution of product lines through the warehouses and dead stock. Focusing on the revenue.
  - **Sale trends analysis.** How are inventory numbers related to sales figures? What are the products with the most sales, and which are the least sold items. Are there products that are not moving?
- - **Shipping trends.** Analysing if the desired 24 hours shipping window is met.
+ - **Shipping trends.** Analyzing if the desired 24 hours shipping window is met.
 
 
   ### **Data Structure**
